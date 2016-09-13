@@ -64,7 +64,6 @@ public class UserDAOImpl implements UserDAO {
 
 	@Override
 	public void deleteById(Long id) {
-		// TODO Auto-generated method stub
 		Session session = this.sessionFactory.openSession();
 		String hql = "DELETE FROM User "  + 
 	             "WHERE id = :id";

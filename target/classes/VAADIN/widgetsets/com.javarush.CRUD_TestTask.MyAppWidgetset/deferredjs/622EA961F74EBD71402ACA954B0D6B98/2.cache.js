@@ -1,1 +1,0 @@
-$wnd.com_javarush_CRUD_TestTask_MyAppWidgetset.runAsyncCallback2('deb(1616,1,N2d);_.vc=function $ic(){I3b((!B3b&&(B3b=new N3b),B3b),this.a.d)};iYd(Th)(2);\n//# sourceURL=com.javarush.CRUD_TestTask.MyAppWidgetset-2.js\n')

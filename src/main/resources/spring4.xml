@@ -8,10 +8,10 @@
 
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
 		destroy-method="close">
-		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-		<property name="url" value="jdbc:mysql://localhost:3306/test" />
-		<property name="username" value="root" />
-		<property name="password" value="root" />
+		<property name="driverClassName" value="org.postgresql.Driver" />
+		<property name="url" value="jdbc:postgresql://ec2-54-75-228-51.eu-west-1.compute.amazonaws.com:5432/de19eji8nvrpkp?ssl=true&amp;sslfactory=org.postgresql.ssl.NonValidatingFactory" />
+		<property name="username" value="vzdlntakemrtdf" />
+		<property name="password" value="_eCLcDMyaRAxuviicWsV6EJOaN" />
 	</bean>
 
 
@@ -26,9 +26,9 @@
 		</property>
 		<property name="hibernateProperties">
 			<props>
-				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+				<prop key="hibernate.dialect">org.hibernate.dialect.PostgreSQL9Dialect</prop>
 				<prop key="hibernate.current_session_context_class">thread</prop>
-				<prop key="hibernate.show_sql">false</prop>
+				<prop key="hibernate.show_sql">true</prop>
 			</props>
 		</property>
 	</bean>
