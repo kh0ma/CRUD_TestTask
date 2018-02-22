@@ -13,7 +13,12 @@ public class User implements Serializable {
 
     @Id
     @Column(name = "id")
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(
+            strategy = GenerationType.SEQUENCE,
+            generator = "my_seq")
+    @SequenceGenerator(
+            name = "my_seq",
+            sequenceName = "test_id_seq")
     private Long id;
     @Column(name = "name")
     private String name;
