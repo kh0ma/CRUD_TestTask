@@ -10,12 +10,10 @@ import java.util.Date;
  * Created by kh0ma on 13.09.16.
  */
 public class appTests {
-    public static void main(String... args)
-    {
+    public static void main(String... args) {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring4.xml");
 
-        UserDAO userDAO =  context.getBean(UserDAO.class);
-
+        UserDAO userDAO = context.getBean(UserDAO.class);
 
 
         User user1 = new User();

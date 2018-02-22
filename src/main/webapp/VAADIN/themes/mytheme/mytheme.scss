@@ -62,13 +62,23 @@ $v-selection-item-border-radius: 0;
   @include valo;
 
   // Insert your own theme rules here
-    .v-label-newLabel {
- font-size: 20px;
-}
+  .v-label-newLabel {
+    font-size: 20px;
+  }
 
-.mymargins.v-margin-left   {padding-left:   10px;}
-.mymargins.v-margin-right  {padding-right:  10px;}
-.mymargins.v-margin-top    {padding-top:    10px;}
-.mymargins.v-margin-bottom {padding-bottom: 10px;}
-.mymargins.v-spacing 		{width: 200px;}
+  .mymargins.v-margin-left {
+    padding-left: 10px;
+  }
+  .mymargins.v-margin-right {
+    padding-right: 10px;
+  }
+  .mymargins.v-margin-top {
+    padding-top: 10px;
+  }
+  .mymargins.v-margin-bottom {
+    padding-bottom: 10px;
+  }
+  .mymargins.v-spacing {
+    width: 200px;
+  }
 }
